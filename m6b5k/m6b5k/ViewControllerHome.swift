@@ -15,7 +15,7 @@ class ViewControllerHome: UIViewController,UIScrollViewDelegate {
     @IBOutlet weak var scrolView: UIScrollView!
     @IBOutlet weak var superMarketButton: UIButton!
     
-    let imgeArray = ["Scrol3", "Scrol1", "Scrol2"]
+    let imgeArray = ["Scrol2", "Scrol1", "Scrol3"]
     override func viewDidLoad() {
         super.viewDidLoad()
         scrolView.layer.cornerRadius = 15

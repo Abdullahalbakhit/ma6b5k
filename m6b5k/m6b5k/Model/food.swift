@@ -41,9 +41,34 @@ let ahmadDescribe = """
 -نضع كل ما فعلناه على الخبز
 -ونضعهم في الفرن
 """
+let burger = """
+فرم ستكيه الواجيو وتشكيله بشكل البرجر
+نضع الحم في الثلاجه لمده ١٠ دقائق
+نقطع البصل لشرائح متينه
+قطع حبتين من الفطر لشرائح متينه
+ثم نطبخهم في النار و وضع القليل من الماء لمدة ٥ دقائق
+ثم ننطبخ لحمه الواجيو مع وضع الملح عليها لمده ٥ دقائق او اكثر
+وضع جبن
+نقع خس
+نضع المايونيز على الخبز
+ونظعهم على بعض
+"""
+let granloa = """
+روب يوناني مع الجرانولا اللذيذ
+نضعهم في الصحن
+نضيف المكسرات
+التين
+توت
+التوت الاسود
+ونوزع زبده الفول السوداني في الصحن
+نضع العسل في الاطراف
+الطبق جاهز
+"""
 
 var ahmadFood: [TheCooking] = [
-.init(cookingName: "Baytes", cookingImage: "bytes", recipe: ahmadDescribe)
+.init(cookingName: "Baytes", cookingImage: "bytes", recipe: ahmadDescribe),
+.init(cookingName: "Granola", cookingImage: "granola", recipe: granloa),
+.init(cookingName: "Wagyu burger", cookingImage: "Wagyu Burger", recipe: burger)
 ]
 
 let jawharadescribe = """
@@ -74,3 +99,4 @@ let wejdandescribe = """
 var wejdanFood: [TheCooking] = [
 .init(cookingName: "pancake", cookingImage: "pancake", recipe: wejdandescribe)
 ]
+

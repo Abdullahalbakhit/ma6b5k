@@ -39,7 +39,7 @@ class ViewControllerTV: UIViewController, UITableViewDelegate, UITableViewDataSo
         cell.labelCell.text = aklah.cookingName
         cell.deccribeCell.text = aklah.recipe
         cell.imageCell.layer.cornerRadius = 20
-        
+        cell.selectionStyle = .none
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

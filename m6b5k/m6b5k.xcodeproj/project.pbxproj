@@ -3,20 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F71A2D913174DDC7EC047D1 /* Pods_m6b5k.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C9EE6B9A94D1AF3BAA726E /* Pods_m6b5k.framework */; };
 		EC077C37253A02EF0097C4F2 /* foodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC077C36253A02EF0097C4F2 /* foodController.swift */; };
 		EC1D68A92538306300ACAFF9 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D68A82538306300ACAFF9 /* ViewControllerHome.swift */; };
 		EC1D68AB2538711100ACAFF9 /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D68AA2538711100ACAFF9 /* food.swift */; };
 		EC1D68B725389B3F00ACAFF9 /* TableViewCellCooker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D68B625389B3F00ACAFF9 /* TableViewCellCooker.swift */; };
 		EC1D68BD2538AF2100ACAFF9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D68BC2538AF2100ACAFF9 /* TableViewController.swift */; };
+		EC6061A5253C6F09002BB66B /* CardDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6061A4253C6F09002BB66B /* CardDetailVC.swift */; };
 		EC6EC5492539C33F00484AF4 /* ViewControllerTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EC5482539C33F00484AF4 /* ViewControllerTV.swift */; };
 		EC6EC54B2539C7A300484AF4 /* TableViewCellTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EC54A2539C7A300484AF4 /* TableViewCellTV.swift */; };
 		EC9DBD0E253B7B99005B2612 /* file.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DBD0D253B7B99005B2612 /* file.swift */; };
 		EC9DBD10253B7E17005B2612 /* vegetabelTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DBD0F253B7E17005B2612 /* vegetabelTV.swift */; };
 		EC9DBD12253B7EC6005B2612 /* vegetabelTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DBD11253B7EC6005B2612 /* vegetabelTVCell.swift */; };
+		ECCD7961253CE92100930FF9 /* priceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD7960253CE92100930FF9 /* priceVC.swift */; };
 		ECFB4B002537228A00D5F5E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB4AFF2537228A00D5F5E2 /* AppDelegate.swift */; };
 		ECFB4B022537228A00D5F5E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB4B012537228A00D5F5E2 /* SceneDelegate.swift */; };
 		ECFB4B042537228A00D5F5E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB4B032537228A00D5F5E2 /* ViewController.swift */; };
@@ -26,16 +29,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AF256F5403B45AB1BD38BFA /* Pods-m6b5k.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m6b5k.release.xcconfig"; path = "Target Support Files/Pods-m6b5k/Pods-m6b5k.release.xcconfig"; sourceTree = "<group>"; };
+		41A349B731D71B3AEF6E22B0 /* Pods-m6b5k.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-m6b5k.debug.xcconfig"; path = "Target Support Files/Pods-m6b5k/Pods-m6b5k.debug.xcconfig"; sourceTree = "<group>"; };
+		45C9EE6B9A94D1AF3BAA726E /* Pods_m6b5k.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_m6b5k.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC077C36253A02EF0097C4F2 /* foodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodController.swift; sourceTree = "<group>"; };
 		EC1D68A82538306300ACAFF9 /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
 		EC1D68AA2538711100ACAFF9 /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
 		EC1D68B625389B3F00ACAFF9 /* TableViewCellCooker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCooker.swift; sourceTree = "<group>"; };
 		EC1D68BC2538AF2100ACAFF9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EC6061A4253C6F09002BB66B /* CardDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailVC.swift; sourceTree = "<group>"; };
 		EC6EC5482539C33F00484AF4 /* ViewControllerTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTV.swift; sourceTree = "<group>"; };
 		EC6EC54A2539C7A300484AF4 /* TableViewCellTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellTV.swift; sourceTree = "<group>"; };
 		EC9DBD0D253B7B99005B2612 /* file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = file.swift; sourceTree = "<group>"; };
 		EC9DBD0F253B7E17005B2612 /* vegetabelTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegetabelTV.swift; sourceTree = "<group>"; };
 		EC9DBD11253B7EC6005B2612 /* vegetabelTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegetabelTVCell.swift; sourceTree = "<group>"; };
+		ECCD7960253CE92100930FF9 /* priceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = priceVC.swift; sourceTree = "<group>"; };
 		ECFB4AFC2537228A00D5F5E2 /* m6b5k.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = m6b5k.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFB4AFF2537228A00D5F5E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECFB4B012537228A00D5F5E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,12 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F71A2D913174DDC7EC047D1 /* Pods_m6b5k.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CB637569DEA51202814DB59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41A349B731D71B3AEF6E22B0 /* Pods-m6b5k.debug.xcconfig */,
+				3AF256F5403B45AB1BD38BFA /* Pods-m6b5k.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		497F516CF92D85A334673BF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45C9EE6B9A94D1AF3BAA726E /* Pods_m6b5k.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC9DBD13253B81E2005B2612 /* vegetable */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				EC1D68AA2538711100ACAFF9 /* food.swift */,
+				EC9DBD0D253B7B99005B2612 /* file.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,6 +124,8 @@
 			children = (
 				ECFB4AFE2537228A00D5F5E2 /* m6b5k */,
 				ECFB4AFD2537228A00D5F5E2 /* Products */,
+				2CB637569DEA51202814DB59 /* Pods */,
+				497F516CF92D85A334673BF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,12 +145,13 @@
 				ECC55F0B253A2483000277B3 /* View ContollerTV */,
 				ECC55F0D253A25C5000277B3 /* Model */,
 				EC077C36253A02EF0097C4F2 /* foodController.swift */,
+				ECCD7960253CE92100930FF9 /* priceVC.swift */,
 				EC1D68A82538306300ACAFF9 /* ViewControllerHome.swift */,
 				ECFB4AFF2537228A00D5F5E2 /* AppDelegate.swift */,
 				ECFB4B012537228A00D5F5E2 /* SceneDelegate.swift */,
 				ECFB4B032537228A00D5F5E2 /* ViewController.swift */,
 				ECFB4B052537228A00D5F5E2 /* Main.storyboard */,
-				EC9DBD0D253B7B99005B2612 /* file.swift */,
+				EC6061A4253C6F09002BB66B /* CardDetailVC.swift */,
 				ECFB4B082537228C00D5F5E2 /* Assets.xcassets */,
 				ECFB4B0A2537228C00D5F5E2 /* LaunchScreen.storyboard */,
 				ECFB4B0D2537228C00D5F5E2 /* Info.plist */,
@@ -136,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECFB4B102537228C00D5F5E2 /* Build configuration list for PBXNativeTarget "m6b5k" */;
 			buildPhases = (
+				D98DE9E9D327DEED306A5575 /* [CP] Check Pods Manifest.lock */,
 				ECFB4AF82537228A00D5F5E2 /* Sources */,
 				ECFB4AF92537228A00D5F5E2 /* Frameworks */,
 				ECFB4AFA2537228A00D5F5E2 /* Resources */,
+				D5FF2643042599855BF4D05E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +227,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D5FF2643042599855BF4D05E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-m6b5k/Pods-m6b5k-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-m6b5k/Pods-m6b5k-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-m6b5k/Pods-m6b5k-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D98DE9E9D327DEED306A5575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-m6b5k-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECFB4AF82537228A00D5F5E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -203,12 +277,14 @@
 				EC1D68AB2538711100ACAFF9 /* food.swift in Sources */,
 				EC1D68BD2538AF2100ACAFF9 /* TableViewController.swift in Sources */,
 				EC6EC5492539C33F00484AF4 /* ViewControllerTV.swift in Sources */,
+				ECCD7961253CE92100930FF9 /* priceVC.swift in Sources */,
 				ECFB4B042537228A00D5F5E2 /* ViewController.swift in Sources */,
 				ECFB4B002537228A00D5F5E2 /* AppDelegate.swift in Sources */,
 				EC1D68B725389B3F00ACAFF9 /* TableViewCellCooker.swift in Sources */,
 				ECFB4B022537228A00D5F5E2 /* SceneDelegate.swift in Sources */,
 				EC9DBD12253B7EC6005B2612 /* vegetabelTVCell.swift in Sources */,
 				EC077C37253A02EF0097C4F2 /* foodController.swift in Sources */,
+				EC6061A5253C6F09002BB66B /* CardDetailVC.swift in Sources */,
 				EC9DBD0E253B7B99005B2612 /* file.swift in Sources */,
 				EC9DBD10253B7E17005B2612 /* vegetabelTV.swift in Sources */,
 				EC6EC54B2539C7A300484AF4 /* TableViewCellTV.swift in Sources */,
@@ -354,10 +430,13 @@
 		};
 		ECFB4B112537228C00D5F5E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41A349B731D71B3AEF6E22B0 /* Pods-m6b5k.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K9TQRV4HJ;
 				INFOPLIST_FILE = m6b5k/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,10 +450,13 @@
 		};
 		ECFB4B122537228C00D5F5E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF256F5403B45AB1BD38BFA /* Pods-m6b5k.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K9TQRV4HJ;
 				INFOPLIST_FILE = m6b5k/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

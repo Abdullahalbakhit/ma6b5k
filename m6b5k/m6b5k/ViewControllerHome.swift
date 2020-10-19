@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Cards
 
 class ViewControllerHome: UIViewController,UIScrollViewDelegate {
     // ((View Controller Home))
@@ -14,10 +15,14 @@ class ViewControllerHome: UIViewController,UIScrollViewDelegate {
     @IBOutlet weak var foodButton: UIButton!
     @IBOutlet weak var scrolView: UIScrollView!
     @IBOutlet weak var superMarketButton: UIButton!
+    @IBOutlet weak var card: CardGroupSliding!
     
     let imgeArray = ["Scrol2", "Scrol1", "Scrol3"]
     override func viewDidLoad() {
         super.viewDidLoad()
+        let slidingCardContent = storyboard?.instantiateViewController(withIdentifier: "CardContent")
+        card.shouldPresent(slidingCardContent, from: self, fullscreen: false)
+    
         scrolView.layer.cornerRadius = 15
     
         pageControler.numberOfPages = imgeArray.count
@@ -33,6 +38,15 @@ class ViewControllerHome: UIViewController,UIScrollViewDelegate {
             scrolView.contentSize.width = view.frame.size.width*CGFloat(i+1)
             scrolView.addSubview(imgeView)
             imgeView.contentMode = UIView.ContentMode.scaleAspectFill
+            
+            let icons: [UIImage] = [
+                
+                UIImage(named: "Scrol1")!,
+                UIImage(named: "Scrol2")!,
+                UIImage(named: "Scrol3")!
+            ]
+            
+            card.icons = icons
         }
         
         func scrolViewDidScrol(_ scrolView: UIScrollView) {

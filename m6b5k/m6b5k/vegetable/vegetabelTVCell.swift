@@ -15,6 +15,7 @@ class VegetabelTVCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        vegetabelImageCell.layer.cornerRadius = 20
         // Initialization code
     }
 

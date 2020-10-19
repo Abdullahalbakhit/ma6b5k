@@ -33,7 +33,10 @@ class vegetabelTV: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as! VegetabelTVCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! VegetabelTVCell
+        cell.vegetabelImageCell.image = UIImage(named: vegetArray[indexPath.row].vegetImage)
+        cell.vegetabelLabelCell.text = vegetArray[indexPath.row].vegetName
+        cell.vegetabelPriceCell.text = vegetArray[indexPath.row].vegetPrice
         
 
         // Configure the cell...
@@ -41,6 +44,10 @@ class vegetabelTV: UITableViewController {
         return cell
     }
 
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "next", sender: vegetArray[indexPath.row])
+    }
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
@@ -76,14 +83,20 @@ class vegetabelTV: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let price = sender as! Vegetabel
+        let vs = segue.destination as! priceVC
+        vs.price = price
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        }
     }
-    */
-
-}
+// override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//     let cooker = sender as! Cooker
+//     let vs = segue.destination as! ViewControllerTV
+//     vs.cooker = cooker
+// }

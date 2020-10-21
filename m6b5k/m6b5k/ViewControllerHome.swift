@@ -17,6 +17,7 @@ class ViewControllerHome: UIViewController,UIScrollViewDelegate {
     @IBOutlet weak var superMarketButton: UIButton!
     @IBOutlet weak var card: CardGroupSliding!
     
+    
     let imgeArray = ["Scrol2", "Scrol1", "Scrol3"]
     override func viewDidLoad() {
         super.viewDidLoad()

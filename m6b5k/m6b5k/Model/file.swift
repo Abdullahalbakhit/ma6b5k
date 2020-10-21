@@ -19,3 +19,4 @@ var vegetArray: [Vegetabel] = [
     .init(vegetName: "العلالي شوفان أبيض 400غ", vegetImage: "shofan", vegetPrice: "د.ك0.545")
 ]
 
+var carts: [Vegetabel] = []

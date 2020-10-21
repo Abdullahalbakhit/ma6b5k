@@ -29,6 +29,10 @@ class priceVC: UIViewController {
         number.text = String(Int(stepper.value))
     }
     
+    @IBAction func addproduct(_ sender: UIButton) {
+        carts.append(price)
+        print(carts)
+    }
     
     /*
     // MARK: - Navigation

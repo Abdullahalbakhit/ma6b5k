@@ -96,27 +96,27 @@ import UIKit
      from                   -> Your current ViewController (self)
      */
     public func shouldPresent( _ contentViewController: UIViewController?, from superVC: UIViewController?, fullscreen: Bool = false) {
-        detailVC.modalPresentationStyle = .fullScreen
-        if detailVC.children.count > 0{
-            let viewControllers:[UIViewController] = detailVC.children
-            for viewContoller in viewControllers{
-                viewContoller.willMove(toParent: nil)
-                viewContoller.view.removeFromSuperview()
-                viewContoller.removeFromParent()
-                
+            detailVC.modalPresentationStyle = .fullScreen
+            if detailVC.children.count > 0{
+                let viewControllers:[UIViewController] = detailVC.children
+                for viewContoller in viewControllers{
+                    viewContoller.willMove(toParent: nil)
+                    viewContoller.view.removeFromSuperview()
+                    viewContoller.removeFromParent()
+                    
+                }
+            }
+            
+            detailVC.isViewAdded = false
+            if let content = contentViewController{
+                self.superVC = superVC
+                detailVC.addChild(content)
+                detailVC.detailView = content.view
+                detailVC.card = self
+                detailVC.delegate = self.delegate
+                detailVC.modalPresentationStyle = .fullScreen
             }
         }
-        
-        detailVC.isViewAdded = false
-        if let content = contentViewController{
-            self.superVC = superVC
-            detailVC.addChild(content)
-            detailVC.detailView = content.view
-            detailVC.card = self
-            detailVC.delegate = self.delegate
-            detailVC.modalPresentationStyle = .fullScreen
-        }
-    }
     /**
      If the card should display parallax effect.
      */

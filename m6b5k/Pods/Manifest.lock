@@ -2,19 +2,23 @@ PODS:
   - Cards (1.4.0):
     - Player (= 0.13.0)
   - Player (0.13.0)
+  - youtube-ios-player-helper (1.0.2)
 
 DEPENDENCIES:
   - Cards
+  - youtube-ios-player-helper
 
 SPEC REPOS:
   trunk:
     - Cards
     - Player
+    - youtube-ios-player-helper
 
 SPEC CHECKSUMS:
   Cards: 45ae6bd0eca7b5e8016d3b6cb30b60b04753f68f
   Player: 968d8d07d923bcdd6f7e4091c9e306eb44a5f7a4
+  youtube-ios-player-helper: 40b96e52c22445f0fdc43731cefa32c67075ff81
 
-PODFILE CHECKSUM: 38758c8777575a4f41fa748175fa25daf51ef802
+PODFILE CHECKSUM: 32182531f86d9611f12154fc50b235a82073f838
 
 COCOAPODS: 1.9.3

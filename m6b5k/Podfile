@@ -7,5 +7,6 @@ target 'm6b5k' do
 
   # Pods for m6b5k
  pod 'Cards'
+pod "youtube-ios-player-helper"
 
 end

@@ -9,17 +9,14 @@
 import UIKit
 
 class foodController: UIViewController {
-    @IBOutlet weak var al3klahImage: UIImageView!
     @IBOutlet weak var al3klahLabel: UILabel!
     @IBOutlet weak var al3klahDescribe: UILabel!
     var aklah: TheCooking!
     override func viewDidLoad() {
         super.viewDidLoad()
-        al3klahImage.image = UIImage(named: aklah.cookingImage)
         
         al3klahLabel.text = aklah.cookingName
         al3klahDescribe.text = aklah.recipe
-        al3klahImage.layer.cornerRadius = 20
 
         // Do any additional setup after loading the view.
     }

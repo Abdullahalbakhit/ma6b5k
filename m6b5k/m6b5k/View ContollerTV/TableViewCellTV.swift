@@ -7,13 +7,15 @@
 //
 
 import UIKit
+import Cards
 
 class TableViewCellTV: UITableViewCell {
 
-    @IBOutlet weak var imageCell: UIImageView!
-    @IBOutlet weak var labelCell: UILabel!
-    @IBOutlet weak var deccribeCell: UILabel!
-    
+  //  @IBOutlet weak var imageCell: UIImageView!
+  //  @IBOutlet weak var labelCell: UILabel!
+  //  @IBOutlet weak var deccribeCell: UILabel!
+    @IBOutlet weak var card: CardArticle!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -24,5 +26,6 @@ class TableViewCellTV: UITableViewCell {
 
         // Configure the view for the selected state
     }
+
 
 }

@@ -15,6 +15,7 @@ struct TheCooking {
     var cookingName: String
     var cookingImage: String
     var recipe: String
+    var youtubeLink : String?
 }
 
 struct Cooker {

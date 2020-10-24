@@ -15,7 +15,7 @@ struct TheCooking {
     var cookingName: String
     var cookingImage: String
     var recipe: String
-    var youtubeLink : String?
+    var youtubeLink : String
 }
 
 struct Cooker {
@@ -28,7 +28,8 @@ struct Cooker {
 var cookerArray: [Cooker] = [
     .init(name: "Ahmad Alzammel", imageName: "ahmadAlzamel", describe: "طباخ كويتي \n 'ايوع الشبعان", alaklah: ahmadFood),
     .init(name: "Al-Jawhara", imageName: "alJawhara", describe: "طباخه سعوديه \n 'ثم عوافي'", alaklah: jawharaFood),
-    .init(name: "Wejdan", imageName: "wejdan", describe: "طباخه سعوديه 'حرفياً تعدت مرحله اللذاذه'", alaklah: wejdanFood)
+    .init(name: "Wejdan", imageName: "wejdan", describe: "طباخه سعوديه 'حرفياً تعدت مرحله اللذاذه'", alaklah: wejdanFood),
+    .init(name: "misho baeshen", imageName: "misho", describe: "اي شي له صله بالطعام هنا", alaklah: mishoFood)
 ]
 let ahmadDescribe = """
 بشر جبنه البرميزان و وضعه في الجدر
@@ -97,23 +98,13 @@ let ketoS = """
 الطبق جاهز
 """
 var ahmadFood: [TheCooking] = [
-.init(cookingName: "Baytes", cookingImage: "bytes", recipe: ahmadDescribe),
-.init(cookingName: "Granola", cookingImage: "granola", recipe: granloa),
-.init(cookingName: "Wagyu burger", cookingImage: "Wagyu Burger", recipe: burger),
-.init(cookingName: "Chicken Curry", cookingImage: "degagCurry", recipe: degagCurry),
-.init(cookingName: "keto Sliders", cookingImage: "keto Slider", recipe: ketoS)
+    .init(cookingName: "Baytes", cookingImage: "bytes", recipe: ahmadDescribe, youtubeLink: "YGSTbbV1YZw"),
+    .init(cookingName: "Granola", cookingImage: "granola", recipe: granloa, youtubeLink: "SARe7oVbY6A"),
+    .init(cookingName: "Wagyu burger", cookingImage: "Wagyu Burger", recipe: burger, youtubeLink: "OurBW42HQus"),
+    .init(cookingName: "Chicken Curry", cookingImage: "degagCurry", recipe: degagCurry, youtubeLink: "KEFWJOByChY"),
+    .init(cookingName: "keto Sliders", cookingImage: "keto Slider", recipe: ketoS, youtubeLink: "x5eEt7-cdII")
 ]
 
-let jawharadescribe = """
-فستق مطحون ومجروش ربع او نص كيلو حسب حجم الصينيه
--عجينه جلاش+ سمنه طبيعيه
--نضع طبقتين جلاش ومن ثم نضع سمنه ومن ثمه نضع طبقتين كهذه
--ومن ثم فستق
--الطبقه التي في الاعلى تتكون من ٧ طبقات
--ندخلها في الفرن من ٢٠الى٢٥ دقيقه من تحت على ٢٠٠ درجه او ١٨٠ حسب قوه الفرن
--نضع الشيره وهي حاره
--ايس كريم بوظه اخياري
-"""
 let potatoes = """
 طريقه الحشوه
 زبده ونضع الزيت والدجاج ونحركه
@@ -170,23 +161,22 @@ let milkCak = """
 تشرب الكيكه وهي حاره
 ثم تقديم
 """
-
 var jawharaFood: [TheCooking] = [
-    .init(cookingName: "baklawa", cookingImage: "baqlawa", recipe: jawharadescribe),
-    .init(cookingName: "Stuffed Potatoes", cookingImage: "Stuffed potatoes", recipe: potatoes),
-    .init(cookingName: "Chocolate Cake", cookingImage: "choo", recipe: cocoCake),
-    .init(cookingName: "CupCake Potatoes", cookingImage: "cupcakeputait", recipe: cupCakepot),
-    .init(cookingName: "Milk Cake", cookingImage: "milk cake", recipe: milkCak),
+    .init(cookingName: "Stuffed Potatoes", cookingImage: "Stuffed potatoes", recipe: potatoes, youtubeLink: "LdT7o19UPi8"),
+    .init(cookingName: "Chocolate Cake", cookingImage: "choo", recipe: cocoCake, youtubeLink: "J0DqUiEX-iY"),
+    .init(cookingName: "CupCake Potatoes", cookingImage: "cupcakeputait", recipe: cupCakepot, youtubeLink: "XCyTj2sM3x0"),
+    .init(cookingName: "Milk Cake", cookingImage: "milk cake", recipe: milkCak, youtubeLink: "OAaKLNyLZO0"),
 ]
 
-let wejdandescribe = """
-كوب ونصف حليب
--كوبين دقيق
--ملعقه صغيره بيكنج بودر
--ملعقه بيكنج صودا
--نص كوب سكر
--نص كوب زيت
--نص كوب ماء دافئ
+let wejdanEdescribe = """
+فستق مطحون ومجروش ربع او نص كيلو حسب حجم الصينيه
+-عجينه جلاش+ سمنه طبيعيه
+-نضع طبقتين جلاش ومن ثم نضع سمنه ومن ثمه نضع طبقتين كهذه
+-ومن ثم فستق
+-الطبقه التي في الاعلى تتكون من ٧ طبقات
+-ندخلها في الفرن من ٢٠الى٢٥ دقيقه من تحت على ٢٠٠ درجه او ١٨٠ حسب قوه الفرن
+-نضع الشيره وهي حاره
+-ايس كريم بوظه اخياري
 """
 let crispyCik = """
 دجاج قطغ بعظم ١٥ قطعه
@@ -204,7 +194,130 @@ let crispyCik = """
 ٤ اكواب مويا بارده
 بالعفيه
 """
+let fattah = """
+حمص ٤٠٠ جرام ننقعه بمويه بحرارة الغرفه قبلها او لمدة ١٢ ساعه كل فتره نغير المويه
+نصفيه ونحط مويه حاره تغطيه
+نص ملعقه صغيره بيكربونات الصوديوم
+.
+٢ رغيف خبز شامي كبير
+.
+نص كيلو لحم مفروم
+ملح فلفل اسود
+.
+٢ كوب زبادي روب ، ملح ، نعناع مجفف حسب الرغبه
+.
+نص كوب طحينه
+٥-٦ اكواب حمص
+كوب مرقة حمص او حسب الحاجه
+٣ ملاعق ك عصير ليمون
+ملح
+نص ملعقه كبيره كمون
+٤فصوص ثوم
+.
+صنوبر
+٢ ملعقه كبيره سمنه
+"""
+let coffeeCake = """
+لتر حليب
+٣ علبة كريم كراميل البودره فقط
+٢ ملعقه كبيره حليب بودره
+علبة قشطه
+٢ ملعقه كبيره قهوة سريعة التحضير مذوبه مع مويه
+.
+بسكوت
+كيك جاهز
+ملعقة ك قهوة سريعة التحضير مع مويه
+.
+كراميل
+جوز امريكي
+.
+.
+نخليها في الفريزر ساعه او في الثلاجه
+"""
+let shriimp = """
+جمبري بقشره منظف الظهر والماده الى في الراس
+قباقب او ابو مقص منظف بدون مانقسمه
+ذره مسلوقه لمدة ٢٠ د لقيتها بالقصدير في القلايه
+الصوص الاول الكلاسيكي :
+١٠٠ زبده + ٣ ملاعق زيت نباتي
+بصل مفروم ناعم ربع كوب
+٥ ملاعق كبيره ثوم
+نص كوب شطة
+ثلث كوب كاتشب
+دبس فليفله او معجون فلفل احمر او معجون طماطم
+٢ عصير ليمونه
+بهارات ملعقه صغيره : ملح ، بابريكا ، فلفل احمر ، كمون ، كزبره ، كاري ، ثوم بودره ، بهار مشكل
+الصوص التاني تتبيله خاصه سويتها
+٧٠ جرام زبده
+٣ ملاعق زيت
+٢ ملعقه كبيره ثوم
+حبة طماطم مفرومه ناعم
+٢ ملعقه معجون طماطم
+بهارات : بابريكا مدخنه ، ملح ، بهار مشكل ، فلفل مجروش
+هلابينو مفروم ناعم ربع كوب
+صوص الكريمه:
+١٠٠ جرام زبده
+٢ ملعقه زيت
+٤ ملاعق ثوم
+بهارات ملعقه صغيره : ملح ، بابريكا ، فلفل احمر ، كمون ، كزبره ، كاري ، ثوم بودره ، بهار مشكل
+نص عصير ليمونه
+كوب كريمة طبخ
+نتبل السي فود بالصحن وبعدين نحطه بكيس الشواء المخصص للفرن ونخرمه من فوق خرمتين وندخلها الفرن لمدة ٣٠ د من تحت على ١٩٠ درجه .. يكون الفرن مشغل قبل
+"""
 var wejdanFood: [TheCooking] = [
-.init(cookingName: "pancake", cookingImage: "pancake", recipe: wejdandescribe),
-    .init(cookingName: "Crispy Chikn", cookingImage: "crazy chikn", recipe: crispyCik)
+    .init(cookingName: "Crispy Chikn", cookingImage: "crazy chikn", recipe: crispyCik, youtubeLink: "knD42hrgPwo"),
+    .init(cookingName: "baklawa", cookingImage: "baqlawa", recipe: wejdanEdescribe, youtubeLink: "BPNIwr4mqYA"),
+    .init(cookingName: "fattah humos", cookingImage: "homos", recipe: fattah, youtubeLink: "_FrZZErU8oo"),
+    .init(cookingName: "coffe Cake", cookingImage: "cacke", recipe: coffeeCake, youtubeLink: "YgRbPYtKnzQ"),
+    .init(cookingName: "gambari", cookingImage: "shriimmp", recipe: shriimp, youtubeLink: "nca4b8KJPYk")
+    
 ]
+let kona = """
+. نحتاج صواني نحاس
+٢. كمية السمنة بقري لازم تكون كبيره مالية الصينية
+٣. العجينة لازم تكون رطبه ومفروده عشان تمسك
+٤. نوزعهم على الصينية ونطبطهم
+٥. جبن نابلسي بقري منقع قبلها بليلة ومغيرين مويته ٤ مرات عشان تروح الملوحه تماما ثم فرمه ونصفيه من الماء
+٦. تاخذ على النار ١٠ دقايق هادية متوسطه ثم نقلبهم ونحط الشيره عليها
+مقادير القطر =
+كوبين ماء
+٣ كوب سكر
+نغليهم وملعقه سمنه بري بالاخير
+٧. نخليهم على نار شمعه شويتين يذوب الجبن اكثر ونغرف
+"""
+let fanati = """
+٥٠٠ غرام سمك
+م ص ملح بحري
+م ص بهار كاري
+
+١. نقطع السمك مربعات ونبهر
+٢. حرارة القلاية ٢١٠ لمدة ١٥ دقيقة
+"""
+let creb = """
+مقادير العجينة
+حليب ٣٤٠ غرام
+زبدة ٦٥ غرام
+طحين ٢٦٠ غرام
+سكر ٢٥ غرام
+قشر ليمون نصف حبة
+رشة ملح
+بيض ١٠٠ غرام
+١. كل المقادير بالعجانة نخلطها خمس دقائق
+٢. صاج البانكيك نبخه زبده وعلى نار متوسط هادية وحامي ياخذ اول وجه تقريبا دقيقه الى دقيقة ونصف
+٣. نغطيه عشان ما ينشف
+صوص التوت
+١٠٠ غرام توت
+٢٥ غرام سكر
+١. بالصاج نطبخهم ونفعصهم شوي لين يذوب السكر في سايل التوت
+كريمة الجبن
+جبنة فلادفيا٢٣٠ غرام
+كريمة مخفوقة ١٨٠
+سكر مطحون ٦٠ غرام
+١. كريمة نخفقها مع السكر لين تمسك ونخفقها بعدين مع الجبن بحرارة الغرفه .
+
+"""
+var mishoFood: [TheCooking] = [
+    .init(cookingName: "konafah", cookingImage: "konafah", recipe: kona, youtubeLink: "xPHuWEaXIZc"),
+    .init(cookingName: "karohat", cookingImage: "krhaot", recipe: fanati, youtubeLink: "Rb1Lz5ek9Xc"),
+    .init(cookingName: "berry crepe", cookingImage: "crepe berry", recipe: creb, youtubeLink: "5Xl3j_82j2I")
+    ]

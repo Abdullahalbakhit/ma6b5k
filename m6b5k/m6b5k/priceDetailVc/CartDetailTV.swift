@@ -19,7 +19,7 @@ class CartDetailTV: UITableViewCell {
         // Initialization code
     }
     @IBAction func addproduct(_ sender: Any) {
-     numberOfCel.text = String(Int(plusMinos.value))
+        priceCell.text = String(Int(plusMinos.value))
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {

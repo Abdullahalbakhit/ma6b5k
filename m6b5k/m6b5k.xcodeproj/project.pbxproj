@@ -3,26 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9F71A2D913174DDC7EC047D1 /* Pods_m6b5k.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C9EE6B9A94D1AF3BAA726E /* Pods_m6b5k.framework */; };
 		EC077C37253A02EF0097C4F2 /* foodController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC077C36253A02EF0097C4F2 /* foodController.swift */; };
 		EC1D68A92538306300ACAFF9 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D68A82538306300ACAFF9 /* ViewControllerHome.swift */; };
-		EC1D68AB2538711100ACAFF9 /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D68AA2538711100ACAFF9 /* food.swift */; };
 		EC1D68B725389B3F00ACAFF9 /* TableViewCellCooker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D68B625389B3F00ACAFF9 /* TableViewCellCooker.swift */; };
 		EC1D68BD2538AF2100ACAFF9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D68BC2538AF2100ACAFF9 /* TableViewController.swift */; };
 		EC6061A5253C6F09002BB66B /* CardDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6061A4253C6F09002BB66B /* CardDetailVC.swift */; };
 		EC6EC5492539C33F00484AF4 /* ViewControllerTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EC5482539C33F00484AF4 /* ViewControllerTV.swift */; };
 		EC6EC54B2539C7A300484AF4 /* TableViewCellTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EC54A2539C7A300484AF4 /* TableViewCellTV.swift */; };
+		EC75859225442ED000A69921 /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75859125442ECF00A69921 /* food.swift */; };
+		EC75859525442EDD00A69921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75859425442EDD00A69921 /* AppDelegate.swift */; };
+		EC7585A02544447A00A69921 /* mapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75859F2544447900A69921 /* mapScreen.swift */; };
+		EC7585A725447A1400A69921 /* backHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7585A625447A1400A69921 /* backHome.swift */; };
 		EC9DBD0E253B7B99005B2612 /* file.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DBD0D253B7B99005B2612 /* file.swift */; };
 		EC9DBD10253B7E17005B2612 /* vegetabelTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DBD0F253B7E17005B2612 /* vegetabelTV.swift */; };
 		EC9DBD12253B7EC6005B2612 /* vegetabelTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9DBD11253B7EC6005B2612 /* vegetabelTVCell.swift */; };
 		ECBC011225405E1600ADB37F /* cartproductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC011125405E1600ADB37F /* cartproductVC.swift */; };
 		ECBC011525405E7300ADB37F /* CartDetailTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC011425405E7300ADB37F /* CartDetailTV.swift */; };
 		ECCD7961253CE92100930FF9 /* priceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCD7960253CE92100930FF9 /* priceVC.swift */; };
-		ECFB4B002537228A00D5F5E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB4AFF2537228A00D5F5E2 /* AppDelegate.swift */; };
 		ECFB4B022537228A00D5F5E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB4B012537228A00D5F5E2 /* SceneDelegate.swift */; };
 		ECFB4B042537228A00D5F5E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB4B032537228A00D5F5E2 /* ViewController.swift */; };
 		ECFB4B072537228A00D5F5E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFB4B052537228A00D5F5E2 /* Main.storyboard */; };
@@ -36,12 +38,15 @@
 		45C9EE6B9A94D1AF3BAA726E /* Pods_m6b5k.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_m6b5k.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC077C36253A02EF0097C4F2 /* foodController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodController.swift; sourceTree = "<group>"; };
 		EC1D68A82538306300ACAFF9 /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
-		EC1D68AA2538711100ACAFF9 /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
 		EC1D68B625389B3F00ACAFF9 /* TableViewCellCooker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCooker.swift; sourceTree = "<group>"; };
 		EC1D68BC2538AF2100ACAFF9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		EC6061A4253C6F09002BB66B /* CardDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailVC.swift; sourceTree = "<group>"; };
 		EC6EC5482539C33F00484AF4 /* ViewControllerTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTV.swift; sourceTree = "<group>"; };
 		EC6EC54A2539C7A300484AF4 /* TableViewCellTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellTV.swift; sourceTree = "<group>"; };
+		EC75859125442ECF00A69921 /* food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
+		EC75859425442EDD00A69921 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC75859F2544447900A69921 /* mapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapScreen.swift; sourceTree = "<group>"; };
+		EC7585A625447A1400A69921 /* backHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backHome.swift; sourceTree = "<group>"; };
 		EC9DBD0D253B7B99005B2612 /* file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = file.swift; sourceTree = "<group>"; };
 		EC9DBD0F253B7E17005B2612 /* vegetabelTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegetabelTV.swift; sourceTree = "<group>"; };
 		EC9DBD11253B7EC6005B2612 /* vegetabelTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegetabelTVCell.swift; sourceTree = "<group>"; };
@@ -49,7 +54,6 @@
 		ECBC011425405E7300ADB37F /* CartDetailTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDetailTV.swift; sourceTree = "<group>"; };
 		ECCD7960253CE92100930FF9 /* priceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = priceVC.swift; sourceTree = "<group>"; };
 		ECFB4AFC2537228A00D5F5E2 /* m6b5k.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = m6b5k.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECFB4AFF2537228A00D5F5E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECFB4B012537228A00D5F5E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ECFB4B032537228A00D5F5E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECFB4B062537228A00D5F5E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 				ECCD7960253CE92100930FF9 /* priceVC.swift */,
 				ECBC011125405E1600ADB37F /* cartproductVC.swift */,
 				ECBC011425405E7300ADB37F /* CartDetailTV.swift */,
+				EC6061A4253C6F09002BB66B /* CardDetailVC.swift */,
 			);
 			path = priceDetailVc;
 			sourceTree = "<group>";
@@ -127,8 +132,8 @@
 		ECC55F0D253A25C5000277B3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EC1D68AA2538711100ACAFF9 /* food.swift */,
 				EC9DBD0D253B7B99005B2612 /* file.swift */,
+				EC75859125442ECF00A69921 /* food.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,11 +166,12 @@
 				ECBC011725405EBE00ADB37F /* priceDetailVc */,
 				EC1D68A82538306300ACAFF9 /* ViewControllerHome.swift */,
 				EC077C36253A02EF0097C4F2 /* foodController.swift */,
-				ECFB4AFF2537228A00D5F5E2 /* AppDelegate.swift */,
+				EC75859425442EDD00A69921 /* AppDelegate.swift */,
 				ECFB4B012537228A00D5F5E2 /* SceneDelegate.swift */,
 				ECFB4B032537228A00D5F5E2 /* ViewController.swift */,
 				ECFB4B052537228A00D5F5E2 /* Main.storyboard */,
-				EC6061A4253C6F09002BB66B /* CardDetailVC.swift */,
+				EC7585A625447A1400A69921 /* backHome.swift */,
+				EC75859F2544447900A69921 /* mapScreen.swift */,
 				ECFB4B082537228C00D5F5E2 /* Assets.xcassets */,
 				ECFB4B0A2537228C00D5F5E2 /* LaunchScreen.storyboard */,
 				ECFB4B0D2537228C00D5F5E2 /* Info.plist */,
@@ -288,13 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1D68AB2538711100ACAFF9 /* food.swift in Sources */,
 				EC1D68BD2538AF2100ACAFF9 /* TableViewController.swift in Sources */,
 				ECBC011225405E1600ADB37F /* cartproductVC.swift in Sources */,
 				EC6EC5492539C33F00484AF4 /* ViewControllerTV.swift in Sources */,
 				ECCD7961253CE92100930FF9 /* priceVC.swift in Sources */,
 				ECFB4B042537228A00D5F5E2 /* ViewController.swift in Sources */,
-				ECFB4B002537228A00D5F5E2 /* AppDelegate.swift in Sources */,
 				EC1D68B725389B3F00ACAFF9 /* TableViewCellCooker.swift in Sources */,
 				ECFB4B022537228A00D5F5E2 /* SceneDelegate.swift in Sources */,
 				EC9DBD12253B7EC6005B2612 /* vegetabelTVCell.swift in Sources */,
@@ -302,8 +306,12 @@
 				EC6061A5253C6F09002BB66B /* CardDetailVC.swift in Sources */,
 				ECBC011525405E7300ADB37F /* CartDetailTV.swift in Sources */,
 				EC9DBD0E253B7B99005B2612 /* file.swift in Sources */,
+				EC7585A02544447A00A69921 /* mapScreen.swift in Sources */,
 				EC9DBD10253B7E17005B2612 /* vegetabelTV.swift in Sources */,
+				EC75859225442ED000A69921 /* food.swift in Sources */,
 				EC6EC54B2539C7A300484AF4 /* TableViewCellTV.swift in Sources */,
+				EC75859525442EDD00A69921 /* AppDelegate.swift in Sources */,
+				EC7585A725447A1400A69921 /* backHome.swift in Sources */,
 				EC1D68A92538306300ACAFF9 /* ViewControllerHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

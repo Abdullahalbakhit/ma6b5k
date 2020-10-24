@@ -11,6 +11,7 @@ import UIKit
 class priceVC: UIViewController {
     @IBOutlet weak var imagePrice: UIImageView!
     @IBOutlet weak var namePrice: UILabel!
+    @IBOutlet weak var checkout: UIButton!
     @IBOutlet weak var priceLabel: UILabel!
     var price: Vegetabel!
     @IBOutlet weak var addToCartButton: UIButton!
@@ -22,11 +23,12 @@ class priceVC: UIViewController {
         imagePrice.image = UIImage(named: price.vegetImage)
         namePrice.text = price.vegetName
         priceLabel.text = price.vegetPrice
-        button.layer.cornerRadius = 20 
+        button.layer.cornerRadius = 15
+        checkout.layer.cornerRadius = 15
         // Do any additional setup after loading the view.
     }
     @IBAction func add(_ sender: Any) {
-        number.text = String(Int(stepper.value))
+        priceLabel.text = String(Int(stepper.value))
     }
     
     @IBAction func addproduct(_ sender: UIButton) {

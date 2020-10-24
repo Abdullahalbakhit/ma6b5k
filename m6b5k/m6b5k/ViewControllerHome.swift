@@ -18,7 +18,7 @@ class ViewControllerHome: UIViewController,UIScrollViewDelegate {
     @IBOutlet weak var card: CardGroupSliding!
     
     
-    let imgeArray = ["Scrol2", "Scrol1", "Scrol3"]
+    let imgeArray = ["Scrol2", "Scrol1", "Scrol3", "pizzaN"]
     override func viewDidLoad() {
         super.viewDidLoad()
         let slidingCardContent = storyboard?.instantiateViewController(withIdentifier: "CardContent")
@@ -43,8 +43,10 @@ class ViewControllerHome: UIViewController,UIScrollViewDelegate {
             let icons: [UIImage] = [
                 
                 UIImage(named: "Scrol1")!,
-                UIImage(named: "Scrol2")!,
-                UIImage(named: "Scrol3")!
+                UIImage(named: "lunchScreenIcon")!,
+                UIImage(named: "Scrol3")!,
+                UIImage(named: "granola")!,
+                UIImage(named: "pancake")!
             ]
             
             card.icons = icons

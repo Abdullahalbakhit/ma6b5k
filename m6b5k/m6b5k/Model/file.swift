@@ -16,7 +16,8 @@ struct Vegetabel {
 }
 
 var vegetArray: [Vegetabel] = [
-    .init(vegetName: "العلالي شوفان أبيض 400غ", vegetImage: "shofan", vegetPrice: "د.ك0.545")
+    .init(vegetName: "العلالي شوفان أبيض 400غ", vegetImage: "shofan", vegetPrice: "د.ك0.545"),
+    .init(vegetName: "باذنجان ١ كيلو", vegetImage: "IMG_7032", vegetPrice: "1.300د.ك"),
 ]
 
 var carts: [Vegetabel] = []

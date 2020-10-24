@@ -12,6 +12,8 @@
 		EC1D68A92538306300ACAFF9 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D68A82538306300ACAFF9 /* ViewControllerHome.swift */; };
 		EC1D68B725389B3F00ACAFF9 /* TableViewCellCooker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D68B625389B3F00ACAFF9 /* TableViewCellCooker.swift */; };
 		EC1D68BD2538AF2100ACAFF9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D68BC2538AF2100ACAFF9 /* TableViewController.swift */; };
+		EC345A952544A983009E39CF /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC345A942544A983009E39CF /* cell.swift */; };
+		EC345A982544AC32009E39CF /* paymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC345A972544AC32009E39CF /* paymentMethod.swift */; };
 		EC6061A5253C6F09002BB66B /* CardDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6061A4253C6F09002BB66B /* CardDetailVC.swift */; };
 		EC6EC5492539C33F00484AF4 /* ViewControllerTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EC5482539C33F00484AF4 /* ViewControllerTV.swift */; };
 		EC6EC54B2539C7A300484AF4 /* TableViewCellTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EC54A2539C7A300484AF4 /* TableViewCellTV.swift */; };
@@ -40,6 +42,8 @@
 		EC1D68A82538306300ACAFF9 /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
 		EC1D68B625389B3F00ACAFF9 /* TableViewCellCooker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCooker.swift; sourceTree = "<group>"; };
 		EC1D68BC2538AF2100ACAFF9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EC345A942544A983009E39CF /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
+		EC345A972544AC32009E39CF /* paymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentMethod.swift; sourceTree = "<group>"; };
 		EC6061A4253C6F09002BB66B /* CardDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailVC.swift; sourceTree = "<group>"; };
 		EC6EC5482539C33F00484AF4 /* ViewControllerTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTV.swift; sourceTree = "<group>"; };
 		EC6EC54A2539C7A300484AF4 /* TableViewCellTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellTV.swift; sourceTree = "<group>"; };
@@ -170,6 +174,8 @@
 				ECFB4B012537228A00D5F5E2 /* SceneDelegate.swift */,
 				ECFB4B032537228A00D5F5E2 /* ViewController.swift */,
 				ECFB4B052537228A00D5F5E2 /* Main.storyboard */,
+				EC345A972544AC32009E39CF /* paymentMethod.swift */,
+				EC345A942544A983009E39CF /* cell.swift */,
 				EC7585A625447A1400A69921 /* backHome.swift */,
 				EC75859F2544447900A69921 /* mapScreen.swift */,
 				ECFB4B082537228C00D5F5E2 /* Assets.xcassets */,
@@ -295,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC1D68BD2538AF2100ACAFF9 /* TableViewController.swift in Sources */,
+				EC345A982544AC32009E39CF /* paymentMethod.swift in Sources */,
 				ECBC011225405E1600ADB37F /* cartproductVC.swift in Sources */,
 				EC6EC5492539C33F00484AF4 /* ViewControllerTV.swift in Sources */,
 				ECCD7961253CE92100930FF9 /* priceVC.swift in Sources */,
@@ -307,6 +314,7 @@
 				ECBC011525405E7300ADB37F /* CartDetailTV.swift in Sources */,
 				EC9DBD0E253B7B99005B2612 /* file.swift in Sources */,
 				EC7585A02544447A00A69921 /* mapScreen.swift in Sources */,
+				EC345A952544A983009E39CF /* cell.swift in Sources */,
 				EC9DBD10253B7E17005B2612 /* vegetabelTV.swift in Sources */,
 				EC75859225442ED000A69921 /* food.swift in Sources */,
 				EC6EC54B2539C7A300484AF4 /* TableViewCellTV.swift in Sources */,

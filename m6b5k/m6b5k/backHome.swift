@@ -17,13 +17,13 @@ class backHome: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-   // @IBAction func backhome(_ sender: Any) {
-   //     let mainStoryBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
-   //     guard let homeViewControler = mainStoryBoard.instantiateViewController(identifier: "ViewControllerHome") as? ViewControllerHome else{
-   //         return 
-   //     }
-   //     present(homeViewControler, animated: true, completion: nil)
-   // }
+    @IBAction func backhome(_ sender: Any) {
+        let mainStoryBoard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        guard let homeViewControler = mainStoryBoard.instantiateViewController(identifier: "ViewControllerHome") as? ViewControllerHome else{
+            return 
+        }
+        present(homeViewControler, animated: true, completion: nil)
+    }
     
     /*
     // MARK: - Navigation

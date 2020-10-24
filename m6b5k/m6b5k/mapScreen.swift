@@ -13,6 +13,7 @@ class mapScreen: UIViewController {
     @IBOutlet weak var mapView: MKMapView!
     let locationManager = CLLocationManager()
     let regionInMeters: Double = 10000
+    var cart: [Vegetabel]!
     override func viewDidLoad() {
         super.viewDidLoad()
         mapView.layer.cornerRadius = 15
@@ -80,5 +81,9 @@ extension mapScreen: CLLocationManagerDelegate {
     }
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
         checkLocationAuthorization()
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! paymentMethod
+        vc.cart = carts
     }
     }

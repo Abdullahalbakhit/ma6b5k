@@ -25,9 +25,9 @@ class paymentMethod: UIViewController, UITableViewDataSource, UITableViewDelegat
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tabelView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! cell
         
-        cell.imagecheck.image = UIImage(named: cart[indexPath.row].vegetImage)
-        cell.priceLabelCheck.text = cart[indexPath.row].vegetPrice
-        cell.prodectNameCheck.text = cart[indexPath.row].vegetName
+    cell.imagecheck.image = UIImage(named: cart[indexPath.row].vegetImage)
+    cell.priceLabelCheck.text = cart[indexPath.row].vegetPrice
+    cell.prodectNameCheck.text = cart[indexPath.row].vegetName
         return cell
     }
 
